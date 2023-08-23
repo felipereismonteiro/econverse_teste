@@ -1,0 +1,29 @@
+.containerCategories {
+ display: flex;
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 20px;
+ justify-content: space-around;
+ align-items: center;
+ font-size: 12px;
+ font-weight: 600;
+ -webkit-box-shadow: -1px 19px 75px -25px rgba(0,0,0,0.75);
+-moz-box-shadow: -1px 19px 75px -25px rgba(0,0,0,0.75);
+box-shadow: -1px 19px 75px -25px rgba(0,0,0,0.75);
+}
+
+.selected {
+ color: #F71963;
+}
+
+.subscriber {
+ display: flex;
+ gap: 5px;
+ justify-content: center;
+ align-items: center;
+}
+
+.subscriberIcon {
+ font-size: 20px;
+}
+
