@@ -1,0 +1,30 @@
+.mainContainer {
+ max-width: 1280px;
+ margin: 0 auto;
+ padding: 10px;
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ width: 100vw;
+ background-color: white;
+ border-bottom: 1px solid hsl(0, 0%, 94%);
+}
+
+.iconContainer {
+ display: flex;
+ align-items: center;
+ gap: 5px;
+}
+
+.textIcon {
+ font-size: 12px;
+}
+
+.iconSecondHeader {
+ font-size: 20px;
+}
+
+.highlightText {
+ color: #F71963;
+ font-weight: bold;
+}
