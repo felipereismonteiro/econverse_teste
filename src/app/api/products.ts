@@ -5,7 +5,9 @@ const url =
 
 
  async function Products(): Promise<ResponseProduct> {
-  return (await axios.get(url)).data;
+  const response = await axios.get(url);
+  console.log(response)
+  return response.data;
  }
 
 export const ApiProducts = {

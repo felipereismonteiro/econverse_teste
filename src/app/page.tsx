@@ -1,3 +1,4 @@
+import CarouselProducts from "./components/carouselProducts/carouselProducts";
 import MainPageCategoryInside from "./components/mainPageCategoryInside/mainPageCategoryInside";
 import MainPageIconsCategory from "./components/mainPageIconsCategory/mainPageIconsCategory";
 import PromoBanner from "./components/promoBanner/promoBanner";
@@ -14,6 +15,7 @@ export default function Home() {
         <div className="linewidth"></div>
       </div>
       <MainPageCategoryInside />
+      <CarouselProducts/>
     </div>
   );
 }
