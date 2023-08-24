@@ -1,0 +1,13 @@
+.ContainerBrand {
+ width: 211px;
+ height: 211px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ -webkit-box-shadow: 0px 0px 26px -10px rgba(0,0,0,0.75);
+ -moz-box-shadow: 0px 0px 26px -10px rgba(0,0,0,0.75);
+ box-shadow: 0px 0px 26px -10px rgba(0,0,0,0.75);
+ border-radius: 50%;
+ margin-right: 10px;
+ box-sizing: border-box;
+}
