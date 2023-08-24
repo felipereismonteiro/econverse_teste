@@ -1,0 +1,56 @@
+.containerPromoBanner {
+ position: relative;
+}
+
+.gradient {
+ width: 100%;
+ position: absolute;
+ left: 0;
+ height: 395px;
+ z-index: 20;
+}
+
+.promoInfos {
+ position: absolute;
+ left: 0px;
+ top: 0px;
+ margin: 80px;
+ z-index: 30;
+ h1 {
+  font-size: 48px;
+  font-weight: 600;
+  line-height: 72px;
+  color: white;
+ }
+ p {
+  font-size: 36px;
+  font-weight: 600;
+  color: white;
+ }
+ button {
+  width: 227px;
+  height: 60px;
+  margin: 30px 0;
+  border-radius: 5px;
+  color: white;
+  font-size: 18px;
+  font-weight: bolder;
+  border: none;
+  background-color: #F71963;
+ }
+}
+
+.bannerImageContainer {
+ display: flex;
+ z-index: 10;
+ justify-content: center;
+ align-items: center;
+ height: 395px;
+ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.bannerImageGradient {
+ width: 100%;
+ background-image: linear-gradient(to bottom, #000000 10%, #000000 100%);
+ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1); /* Efeito de sombra */
+}
