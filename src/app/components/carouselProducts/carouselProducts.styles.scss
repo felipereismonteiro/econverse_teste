@@ -11,10 +11,10 @@
 }
 
 .arrowLeftProducts {
- position: absolute;
- z-index: 10;
- cursor: pointer;
- top: 50%;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  top: 50%;
   transform: translateY(-50%);
   border: transparent;
   font-size: 34px;
@@ -23,10 +23,11 @@
 .arrowRightProducts {
   z-index: 10;
   cursor: pointer;
- position: absolute;
- top: 50%;
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
   border: transparent;
- right: 0;
- font-size: 34px;
+  right: 0;
+  font-size: 34px;
 }
+

@@ -11,13 +11,14 @@ box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.75);
  display: flex;
  flex-direction: column;
  justify-content: space-around;
- button {
+ .submit {
   height: 44px;
   background-color: #F71963;
   color: white;
   border: none;
   font-weight: bolder;
   font-size: 14px;
+  cursor: pointer;
  }
 }
 
@@ -53,4 +54,112 @@ box-shadow: 0px 0px 26px -9px rgba(0,0,0,0.75);
 
 .descriptionProduct {
  margin: 30px 0;
+}
+
+.popup {
+ height: 100vh;
+ width: 100vw;
+ background-color: rgba(0, 0, 0, 0.3);
+ position: fixed;
+ top: 0px;
+ left: 0;
+ z-index: 50;
+}
+
+.mainContainerPopUp {
+ display: flex;
+ justify-content: space-around;
+ align-items: center;
+ background-color: white;
+ position: absolute;
+ top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+ width: 769px;
+ height: 300px;
+ padding: 20px;
+}
+
+.infosContainer {
+ display: flex;
+ flex-direction: column;
+ justify-content: space-around;
+ height: 100%;
+ .productPopUpTitle {
+  margin-bottom: -20px;
+  font-size: 20px;
+  font-weight: 400;
+  color: black;
+ }
+ .productPopUpPrice {
+  font-size: 20px;
+  font-weight: 900;
+  color: black;
+ }
+ .productPopUpDescription {
+  font-size: 10px;
+  font-weight: 400;
+  color: black;
+  width: 290px;
+  margin-top: -10px;
+ }
+ .popUpDetails {
+  font-size: 12px;
+  font-weight: 400;
+  color: #041E50;
+  margin-bottom: -20px;
+ }
+ .buttonsubmit {
+  width: 245px;
+  height: 44px;
+  color: white;
+  background-color: #F71963;
+  font-size: 14px;
+  font-weight: 700;
+ }
+}
+
+.number-input {
+ position: relative;
+ display: flex;
+ align-items: center;
+ width: 110px;
+ height: 36px;
+ margin-bottom: -20px;
+}
+
+.custom-input {
+ border-radius: 4px;
+ width: 110px;
+ height: 36px;
+ text-align: center;
+}
+
+.control-button-plus {
+ position: absolute;
+ font-size: 20px;
+ height: 100%;
+ background-color: red;
+ background-color: white;
+ z-index: 20;
+ left: 10px;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ border: none;
+ font-weight: bold;
+ cursor: pointer;
+}
+
+.control-button-less {
+ position: absolute;
+ font-size: 20px;
+ background-color: white;
+ display: flex;
+ right: 0;
+ justify-content: center;
+ align-items: center;
+ border: none;
+ font-weight: bold;
+ cursor: pointer;
 }

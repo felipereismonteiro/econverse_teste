@@ -3,7 +3,6 @@
 import { ApiProducts } from "@/app/api/products";
 import { useEffect, useRef, useState } from "react";
 import { AiOutlineLeft, AiOutlineRight } from "react-icons/ai";
-import numeral from "numeral";
 import CardProduct from "./components/cardProduct/cardProduct";
 import "./carouselProducts.styles.scss";
 
@@ -29,10 +28,6 @@ export default function CarouselProducts() {
     }
   };
 
-  const formatNumber = (number: number) => {
-    return numeral(number).format("0,0");
-  };
-
   useEffect(() => {
     const products = ApiProducts.Products();
 
@@ -56,10 +51,11 @@ export default function CarouselProducts() {
             <CardProduct
               key={index}
               image={p.photo}
+              name={p.productName}
               description={p.descriptionShort}
-              price={formatNumber(p.price)}
-              priceBefore={formatNumber(p.price + 300)}
-              priceX={formatNumber(p.price / 2)}
+              price={p.price}
+              priceBefore={p.price + 300}
+              priceX={p.price / 2}
             />
           ))}
         </div>
