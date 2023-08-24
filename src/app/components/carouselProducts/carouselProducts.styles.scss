@@ -1,24 +1,33 @@
+.MainProductsContainer {
+  position: relative;
+}
+
 .productsContainer {
  display: flex;
  gap: 30px;
- overflow-x: auto;
- position: relative;
- 
+ overflow-x: hidden;
+ transition: transform 0.3s ease-in-out;
+ max-width: 1280px;
 }
 
 .arrowLeftProducts {
- position: absolute;
- top: 50%;
+  position: absolute;
+  z-index: 10;
+  cursor: pointer;
+  top: 50%;
   transform: translateY(-50%);
   border: transparent;
   font-size: 34px;
 }
 
 .arrowRightProducts {
- position: absolute;
- top: 50%;
+  z-index: 10;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
   transform: translateY(-50%);
   border: transparent;
- right: 0;
- font-size: 34px;
+  right: 0;
+  font-size: 34px;
 }
+
