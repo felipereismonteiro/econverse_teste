@@ -15,10 +15,6 @@ import sodexo from "@/../public/sodexo.png";
 import { FormEvent } from "react";
 
 export default function UpInfos() {
-  const handleSubmitEmail = (e: FormEvent<HTMLFormElement>) => {
-    e.preventDefault();
-  }
-
   const aboutUs = ["CONHEÇA", "COMO FUNCIONA", "INDICAÇÃO E DESCONTO"];
 
   const usefulInfos = [
@@ -73,7 +69,7 @@ export default function UpInfos() {
         </div>
       </div>
       <div></div>
-      <form onSubmit={handleSubmitEmail} className="novidades">
+      <form className="novidades">
         <div>
           <h1 className="titleMainTitle">CADASTRE-SE E RECEBA NOSSAS</h1>
           <h1 className="bolder">NOVIDADES E PROMOÇÕES</h1>
