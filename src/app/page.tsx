@@ -1,3 +1,4 @@
+import CarouselBrands from "./components/carouseBrands/carouselBrands";
 import CarouselProducts from "./components/carouselProducts/carouselProducts";
 import MainPageCategoryInside from "./components/mainPageCategoryInside/mainPageCategoryInside";
 import MainPageIconsCategory from "./components/mainPageIconsCategory/mainPageIconsCategory";
@@ -32,6 +33,10 @@ export default function Home() {
         <ProductsContainer />
         <ProductsContainer />
       </div>
+      <div className="containerSeparate" style={{ margin: 30 }}>
+        <h1>Navegue por marcas</h1>
+      </div>
+      <CarouselBrands />
     </div>
   );
 }
