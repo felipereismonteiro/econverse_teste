@@ -2,3 +2,23 @@
  max-width: 1280px;
  margin: 0 auto;
 }
+
+.containerSeparate {
+ display: flex;
+ max-width: 1280px;
+ margin: 0 auto;
+ justify-content: center;
+ align-items: center;
+ h1 {
+  color: #F71963;
+  font-weight: 700;
+  font-size: 30px;
+  margin: 0 20px;
+ }
+}
+
+.linewidth {
+ width: 360px;
+ height: 1px;
+ background-color: #DEDEDE;
+}
