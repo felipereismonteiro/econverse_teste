@@ -1,34 +1,59 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Econverse Teste técnico
 
-## Getting Started
+Landing page de um ecomerce para a empresa Econverse
 
-First, run the development server:
+## 🚀 Começando
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+Estas instruções vão te ajudar a configurar uma cópia do projeto na sua máquina local para propósitos de desenvolvimento e teste.
+Ou acesse o deploy nesse link --- https://econverse-teste.vercel.app/
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Pré-requisitos
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+ - Nodejs
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Learn More
+### Instalação
 
-To learn more about Next.js, take a look at the following resources:
+Passo a passo sobre como instalar o projeto:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Primeiro, clone o repositório:
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+ - git clone https://github.com/seu-usuario/seu-projeto.git
 
-## Deploy on Vercel
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+2. Entre na pasta do projeto:
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+ - cd econverse_teste
+
+
+3. Instale as dependências:
+
+ - npm i
+
+
+4. Inicie o servidor de desenvolvimento:
+
+ - npm run dev
+
+
+5. Abra o seu navegador e visite [http://localhost:3000](http://localhost:3000) para ver o projeto em ação.
+
+## 🧐 O que há dentro?
+
+- `src/` : Pasta que contém todo o código-fonte do projeto.
+- `public/` : Arquivos públicos, como imagens e ícones.
+- `components/` : Componentes reutilizáveis do React.
+
+## 🛠️ Construído com
+
+- [Next.js](https://nextjs.org/) - O framework React.
+- [SCSS]([https://styled-components.com/](https://sass-lang.com/)) - Biblioteca para estilização.
+- [AXIOS]([[https://styled-components.com/](https://sass-lang.com/](https://axios-http.com/))) - Biblioteca para requisições.
+
+## ✍️ Autores
+
+- Felipe dos Reis - [Perfil do GitHub]([https://github.com/seu-usuario](https://github.com/felipereismonteiro))
+
+Feito com ❤️ usando Next.js
+
+
