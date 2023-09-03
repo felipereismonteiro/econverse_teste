@@ -18,7 +18,7 @@ Passo a passo sobre como instalar o projeto:
 
 1. Primeiro, clone o repositório:
 
- - git clone https://github.com/seu-usuario/seu-projeto.git
+ - git clone [https://github.com/seu-usuario/seu-projeto.git](https://github.com/felipereismonteiro/econverse_teste.git)
 
 
 2. Entre na pasta do projeto:
